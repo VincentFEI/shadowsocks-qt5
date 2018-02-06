@@ -27,3 +27,10 @@ LICENSE
 Copyright © 2014-2017 Symeon Huang
 
 This project is licensed under version 3 of the GNU Lesser General Public License.
+
+## 用法
+- 到release界面下载Appimage格式的ShawdowSocks软件：Shadowsocks-Qt5-3.0.0-x86_64.AppImage
+- 打开终端，输入： sudo chmod +x Shadowsocks-Qt5-3.0.0-x86_64.AppImage
+- 运行： ./Shadowsocks-Qt5-3.0.0-x86_64.AppImage
+- 随后出现和win版的gui界面一样的界面，输入自己的配置，点击Save，配置完成
+- 进入ubuntu的设置，网络，网络代理，方法选择手动，在socks主机后边填上127.0.0.1，后边填写端口（默认1080），点击应用到整个系统即可开启全局代理
